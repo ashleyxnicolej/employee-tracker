@@ -106,33 +106,33 @@ https://www.loom.com/share/1620e902532747979bda06f416d29516?sid=f7debc8d-ad61-47
 ## Database Schema
 The database contains three tables:
 
-department
+- department
 
-  id: INT PRIMARY KEY
+  - id: INT PRIMARY KEY
   
-  name: VARCHAR(30)
+  - name: VARCHAR(30)
   
-role
+- role
 
-  id: INT PRIMARY KEY
+  - id: INT PRIMARY KEY
 
-  title: VARCHAR(30)
+  - title: VARCHAR(30)
   
-  salary: DECIMAL
+  - salary: DECIMAL
   
-  department_id: INT
+  - department_id: INT
   
 employee
 
-  id: INT PRIMARY KEY
+  - id: INT PRIMARY KEY
   
-  first_name: VARCHAR(30)
+  - first_name: VARCHAR(30)
   
-  last_name: VARCHAR(30)
+  - last_name: VARCHAR(30)
   
-  role_id: INT
+  - role_id: INT
   
-  manager_id: INT
+  - manager_id: INT
 
 
 ## Contributing 
