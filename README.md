@@ -122,7 +122,7 @@ The database contains three tables:
   
   - department_id: INT
   
-employee
+- employee
 
   - id: INT PRIMARY KEY
   
