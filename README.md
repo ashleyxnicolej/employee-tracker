@@ -36,11 +36,11 @@ mysql -u root -p < db/seeds.sql
 ```
 
 ## Usage
-To start the application, run:
+1. To start the application, run:
 ```bash
 node server.js
 ```
-Follow the prompts to:
+2. Use arrow keys to navigate through the prompts to:
 
 - View all departments
   
@@ -62,25 +62,25 @@ Follow the prompts to:
 
 - Delete a department
 
-- delete a role
+- Delete a role
 
 - View employees by manager
 
-- view employees by department
+- View employees by department
 
-- view a department budget
+- View a department budget
 
 
 ## Features 
-View all departments, roles, and employees
+- View all departments, roles, and employees
 
-Add departments, roles, and employees
+- Add departments, roles, and employees
 
-Update employee roles
+- Update employee roles
 
-User-friendly interface with easy-to-follow prompts
+- User-friendly interface with easy-to-follow prompts
 
-Clean and organized data presentation in tables
+- Clean and organized data presentation in tables
 
 
 ## Demo
@@ -90,17 +90,17 @@ https://www.loom.com/share/1620e902532747979bda06f416d29516?sid=f7debc8d-ad61-47
 
 
 ## Technologies Used 
-Node.js
+- Node.js
 
-MySQL
+- MySQL
 
-Inquirier
+- Inquirier
 
-Console.table
+- Console.table
 
-dotenv
+- dotenv
 
-JavaScript
+- JavaScript
 
 
 ## Database Schema
